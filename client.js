@@ -16,7 +16,9 @@ const connect = function () {
   });
 
   // conn.on("connect", () => {
-  //   conn.write("Name: XYZ");
+  //   setInterval(() => {
+  //     conn.write("Move: up");
+  //   }, 500);
   // });
 
   // interpret incoming data as text
